@@ -1,0 +1,19 @@
+/* Hide Nitro gift button */
+[aria-label="Send a gift"] {
+    display: none;
+    width: 0px;
+}
+/* Hide GIF picker button */
+div[class^=expression-picker]:has(>[aria-label="Open GIF picker"]) {
+    display: none;
+    width: 0px;
+}
+/* Hide sticker picker button */
+div[class^=expression-picker]:has(>[aria-label="Open sticker picker"]) {
+    display: none;
+    width: 0px;
+}
+/* Hide App button */
+div[class^="channelAppLauncher"] {
+    display: none !important;
+}
