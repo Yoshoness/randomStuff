@@ -22,6 +22,10 @@ div[class^=expression-picker]:has(>[aria-label="Open sticker picker"]) {
     display: none;
     width: 0px;
 }
+/* Remove spacing between buttons */
+.container_c0c49a, .iconContainer_c0c49a {
+    display: none;
+}
 /* Hide App button */
 div[class^="channelAppLauncher"] {
     display: none !important;
