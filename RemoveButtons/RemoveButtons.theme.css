@@ -18,6 +18,6 @@ div[class^=expression-picker]:has(>[aria-label="Open sticker picker"]) {
     display: none;
 }
 /* Hide App button */
-div[class^="channelAppLauncher"] {
+div[class^="channelTextArea"] div[class*="app-launcher"] {
     display: none !important;
 }
