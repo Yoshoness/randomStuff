@@ -1,5 +1,5 @@
 /* Hide Nitro gift button */
-div:has(>[aria-label="Send a gift"]) {
+[aria-label="Send a gift"] {
     display: none;
     width: 0px;
 }
